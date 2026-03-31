@@ -1,4 +1,4 @@
-# NetWORK MONITOR 🖥️
+#GridEye 🖥️
 
 **Real-time network device monitoring dashboard** built with React + FastAPI + WebSockets.
 
