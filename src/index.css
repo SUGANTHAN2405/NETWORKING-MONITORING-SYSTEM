@@ -1,0 +1,39 @@
+:root {
+  --bg: #060a0f;
+  --surface: #0c1219;
+  --surface2: #111a24;
+  --border: #1a2a3a;
+  --accent: #00d4ff;
+  --accent2: #00ff9d;
+  --warn: #ffb020;
+  --danger: #ff4560;
+  --text: #e0eaf5;
+  --muted: #4a6278;
+  --grid: rgba(0,212,255,0.04);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'JetBrains Mono', monospace;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
