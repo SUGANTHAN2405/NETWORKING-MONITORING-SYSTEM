@@ -1,4 +1,4 @@
-# NetWatch 🖥️
+# NetWORK MONITOR 🖥️
 
 **Real-time network device monitoring dashboard** built with React + FastAPI + WebSockets.
 
@@ -187,18 +187,6 @@ netwatch/
 │
 └── README.md
 ```
-
----
-
-## Resume Bullet Points
-
-Use these in your resume under this project:
-
-- Built a full-stack real-time network monitoring system using **React, FastAPI, and WebSockets** that tracks device health across a subnet
-- Implemented **async ICMP ping engine** in Python using subprocess and asyncio to concurrently monitor multiple hosts every 10 seconds
-- Designed **SQLite schema** for storing ping history and auto-generated alerts based on latency thresholds and status transitions
-- Built **WebSocket broadcast system** to push live updates to all connected clients without polling
-- Created interactive topology map, sparkline charts, and traffic visualization using **Recharts and SVG**
 
 ---
 
